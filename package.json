@@ -1,0 +1,42 @@
+{
+  "name": "adonis-blog-demo",
+  "version": "4.0.0",
+  "adonis-version": "4.0.0",
+  "description": "AdonisJs Blog Demo Application",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node ace test --timeout=0",
+    "build": "adonis bundle",
+    "build:dev": "adonis bundle --watch",
+    "build:prod": "adonis bundle --production"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@adonisjs/ace": "^5.0.2",
+    "@adonisjs/auth": "^3.0.5",
+    "@adonisjs/bodyparser": "^2.0.3",
+    "@adonisjs/cors": "^1.0.6",
+    "@adonisjs/fold": "^4.0.8",
+    "@adonisjs/framework": "^5.0.8",
+    "@adonisjs/ignitor": "^2.0.6",
+    "@adonisjs/lucid": "^5.0.4",
+    "@adonisjs/session": "^1.0.25",
+    "@adonisjs/shield": "^1.0.6",
+    "@adonisjs/validator": "^5.0.3",
+    "@adonisjs/vow": "^1.0.15",
+    "@adonisjs/vow-browser": "^1.0.6",
+    "adonis-bundler": "^1.0.1",
+    "tailwindcss": "^0.6.1",
+    "socket.io": "^2.3.0",
+    "lucid-mongo": "^3.1.6",
+    "mongodb-core": "^3.2.7"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  },
+  "autoload": {
+    "App": "./app"
+  }
+}
