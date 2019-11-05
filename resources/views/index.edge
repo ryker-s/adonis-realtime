@@ -2,5 +2,10 @@
 
 @section('content')
     <h1>Hello world</h1>
-    <div class="btn">Hello</div>
+    @loggedIn
+        Welcome back {{ auth.user.nickname }}
+    @else
+        <p> Please login </p>
+        <a href="/login/???">Login</a>
+    @endloggedIn
 @endsection 
