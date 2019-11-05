@@ -26,6 +26,7 @@ const providers = [
   'adonis-bundler/providers/BundlerProvider',
 
   'lucid-mongo/providers/LucidMongoProvider',
+  '@adonisjs/ally/providers/AllyProvider',
 ]
 
 /*
