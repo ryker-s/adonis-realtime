@@ -2,11 +2,11 @@
 
 @section('content')
     <h1>Hello world</h1>
-    <Default/>
     @loggedIn
         Welcome back {{ auth.user.nickname }}
     @else
         <p> Please login </p>
         <a href="/login/???">Login</a>
+        <Default/>
     @endloggedIn
 @endsection 

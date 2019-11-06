@@ -48,7 +48,8 @@ module.exports = {
   |
   */
   customBundles: [
-    // Helpers.resourcesPath('assets/scss/app.scss'),
+  //   Helpers.resourcesPath('assets/scss/app.scss'),
+  //   Helpers.resourcesPath('assets/js/app.js'),
   ],
 
 }
