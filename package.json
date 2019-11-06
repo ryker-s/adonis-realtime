@@ -31,11 +31,13 @@
     "lucid-mongo": "^3.1.6",
     "mongodb-core": "^3.2.7",
     "socket.io": "^2.3.0",
-    "tailwindcss": "^0.6.1"
+    "tailwindcss": "^0.6.1",
+    "vue": "^2.6.10"
   },
   "devDependencies": {
     "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0"
+    "sass-loader": "^8.0.0",
+    "vue-template-compiler": "^2.6.10"
   },
   "autoload": {
     "App": "./app"
