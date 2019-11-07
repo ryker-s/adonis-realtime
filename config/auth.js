@@ -1,5 +1,7 @@
 'use strict'
 
+const Config = use('Config')
+
 module.exports = {
   /*
   |--------------------------------------------------------------------------
@@ -66,10 +68,8 @@ module.exports = {
     serializer: 'LucidMongo',
     model: 'App/Models/User',
     scheme: 'jwt',
-    uid: 'email',
-    password: 'password',
     options: {
-      secret: 'self::app.appKey'
+      secret: Config.get('app.appKey')
     }
   }
 }

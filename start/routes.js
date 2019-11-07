@@ -52,6 +52,13 @@ Route.get('/authenticated/???', async ({
   return 'test'
 })
 
+Route.get('/login/jwt', async ({
+  auth
+}) => {
+  let user = await auth.getUser()
+  let jwt = await auth.authenticator('jwt').generate(user)
+  return jwt
+}).middleware(['auth'])
 
 Route.get('/', async ({
   view
